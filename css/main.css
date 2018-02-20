@@ -685,15 +685,16 @@ textarea.form-control {
     display: table;
     max-width: 880px;
     width: 100%;
-    margin-left: 180px;
-    margin-top: 135px;
+    margin-left: 10%;
+    margin-top: 10%;
     z-index: 1;
     height: 600px;
     text-align: left;
 }
 .contentBodyTest{
     display: table-cell;
-    vertical-align: middle;
+    padding-top: 12%;
+   /* vertical-align: middle;*/
 
 }
 .backgroundImageOwls{
@@ -712,6 +713,7 @@ textarea.form-control {
     top: 200px;
     left: 0px;
     z-index: 1;
+    width: 100px;
 
 }
 .banner-owl-right{
@@ -719,6 +721,7 @@ textarea.form-control {
     right: 100px;
     top: 150px;
     z-index: -2;
+    width: 450px;
 }
 
 .sto-se-mora-zvijezda{
@@ -1111,6 +1114,24 @@ textarea.form-control {
         font-size: 12px;
         text-transform: capitalize;
     }
+    .contentBodyTest h1 {
+        color: #777;
+        font-size: 40px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .contentBodyTest h2 {
+        color: black;
+        font-size: 30px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .contentBodyTest p {
+        font-size: 20px;
+        word-wrap: break-word;
+        white-space: normal;
+        margin-bottom: 30px;
+    }
 
     h1{
         font-size: 40px;
@@ -1179,7 +1200,10 @@ textarea.form-control {
         display: none;
     }
     .contentTest{
-        margin-left: 70px;
+    margin-left: 0px;
+        margin-top: 15%;
+        text-align: center;
+        height: auto;
     }
     .banner-minteh-right{
         display: none;
@@ -1198,6 +1222,9 @@ textarea.form-control {
     .banner-do-right{
         display: none;
     }
+    .listStyle{
+        font-size: 20px;
+    }
 }
 /*
 @media(max-width: 1010px){
@@ -1205,7 +1232,23 @@ textarea.form-control {
      display: none;
  }
 }*/
+@media (min-width: 780px) and (max-width: 1260px) {
 
+    .banner-owl-left{
+        display: none;
+    }
+    .banner-owl-right{
+        width: 35%;
+        top:35%;
+        right: 2%;
+    }
+    .banner-minteh-right{
+        width: 45%;
+        top:35%;
+        right: 2%;
+    }
+
+}
 
 
 
